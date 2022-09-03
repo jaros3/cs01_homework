@@ -2,7 +2,7 @@ Console.WriteLine("Введите любое целочисленное числ
 
 int num = int.Parse(Console.ReadLine());
 
-Console.WriteLine($"Вот какие четные числа находятся в диапазоне от 1 до {num}:");
+Console.WriteLine($"Вот какие четные числа находятся в диапазоне от 1 до {num} включительно:");
 
 for (int i = 2; i <= num; i += 2)
 {
