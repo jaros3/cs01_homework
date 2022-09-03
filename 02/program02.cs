@@ -1,4 +1,4 @@
-Console.WriteLine("Введите три числа для нахождения максимального из них");
+Console.WriteLine("Введите три числа для нахождения максимального из них, нажимая после каждого Enter");
 
 int iNum1 = int.Parse(Console.ReadLine());
 int iNum2 = int.Parse(Console.ReadLine());

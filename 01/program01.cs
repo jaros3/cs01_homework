@@ -1,9 +1,9 @@
 using System;
 
-Console.WriteLine("Введите первое число"); 
+Console.WriteLine("Введите первое число и нажмите Enter"); 
 int number1 = int.Parse(Console.ReadLine());
 
-Console.WriteLine("Введите второе число");
+Console.WriteLine("Введите второе число и нажмите Enter");
 int number2 = int.Parse(Console.ReadLine());
 
 if (number1 > number2)
